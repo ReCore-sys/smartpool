@@ -1,5 +1,4 @@
 use std::any::Any;
-use std::hash::Hash;
 use crossbeam_channel::Sender;
 use rand::Rng;
 

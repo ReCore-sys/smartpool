@@ -1,7 +1,12 @@
 [package]
-name = "smartpool"
+name = "smart-threadpool"
 version = "0.1.0"
 edition = "2024"
+description = "A smart thread pool implementation in Rust"
+homepage = "https://github.com/ReCore-sys/smartpool"
+repository = "https://github.com/ReCore-sys/smartpool"
+license = "MIT"
+keywords = ["threadpool", "smartpool", "rust", "concurrency", "multithreading"]
 
 [dependencies]
 num_cpus = "1.16.0"

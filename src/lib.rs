@@ -1,7 +1,6 @@
 #![feature(integer_atomics)]
 
 use crate::ThreadState::{Busy, Idle};
-use rand::Rng;
 use std::any::Any;
 use std::sync::atomic::{AtomicU128, Ordering};
 use std::sync::{Arc, Mutex};
