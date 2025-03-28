@@ -1,0 +1,9 @@
+[package]
+name = "smartpool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+num_cpus = "1.16.0"
+crossbeam-channel = "0.5.14"
+rand = "0.9.0"
